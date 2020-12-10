@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/andyglass/go-restapi-template/app/logger"
+	"github.com/andyglass/go-restapi-template/logger"
 )
 
 var (

@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/andyglass/go-restapi-template/app/logger"
+	"github.com/andyglass/go-restapi-template/logger"
 	"github.com/kelseyhightower/envconfig"
 )
 

@@ -1,1 +1,1 @@
-# golang-api-template
+# Golang RestAPI Template

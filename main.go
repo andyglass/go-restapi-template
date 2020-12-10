@@ -8,8 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/andyglass/go-restapi-template/app"
-	"github.com/andyglass/go-restapi-template/app/logger"
+	"github.com/andyglass/go-restapi-template/logger"
 )
 
 var (
@@ -19,7 +18,7 @@ var (
 )
 
 func main() {
-	srv := new(app.Server)
+	srv := NewServer()
 
 	// OS Signal handler
 	done := make(chan os.Signal, 1)

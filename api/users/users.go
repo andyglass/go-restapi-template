@@ -3,8 +3,8 @@ package users
 import (
 	"net/http"
 
-	"github.com/andyglass/go-restapi-template/app/logger"
-	"github.com/andyglass/go-restapi-template/app/responses"
+	"github.com/andyglass/go-restapi-template/logger"
+	"github.com/andyglass/go-restapi-template/responses"
 	"github.com/go-chi/render"
 )
 

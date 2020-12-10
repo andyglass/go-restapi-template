@@ -1,9 +1,9 @@
-package app
+package main
 
 import (
 	chilogger "github.com/766b/chi-logger"
 	chiprometheus "github.com/766b/chi-prometheus"
-	"github.com/andyglass/go-restapi-template/app/users"
+	"github.com/andyglass/go-restapi-template/api/users"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/cors"
